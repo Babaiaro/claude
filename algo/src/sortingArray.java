@@ -13,7 +13,7 @@ public class sortingArray {
             }
 
             // Move right pointer until we find an EVEN number
-            while (left < right && nums[right] % 2 == 1) {
+            while (left < right && nums[right] % 2 != 0) {
                 right--;
             }
 
